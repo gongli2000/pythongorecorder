@@ -18,7 +18,7 @@ def loopForBoundingPoly():
                 cv2.imshow('image',image)
             if (cv2.waitKey(1) >= 0):
                 break
-            
+              
         cv2.destroyAllWindows()
         cv2.waitKey(1)
 
